@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Отзывы о Технодоме</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Отзывы о Технодоме</h1>
+  
+    <div id="reviews">
+      <!-- Отзыв 1 -->
+      <div class="review">
+        <h3>Алексей Иванов</h3>
+        <p>Покупал холодильник. Остался очень доволен качеством обслуживания. Рекомендую!</p>
+      </div>
+  
+      <!-- Отзыв 2 -->
+      <div class="review">
+        <h3>Марина Сергеева</h3>
+        <p>Заказывала стиральную машину с доставкой. Всё пришло в срок, монтажники сработали отлично.</p>
+      </div>
+  
+      <!-- Отзыв 3 -->
+      <div class="review">
+        <h3>Игорь Николаев</h3>
+        <p>Выбирал телевизор в Технодоме. Широкий ассортимент и профессиональные консультанты. Спасибо!</p>
+      </div>
+  
+      <!-- Отзыв 4 -->
+      <div class="review">
+        <h3>Елена Петрова</h3>
+        <p>Купила пылесос. Цена и качество на высоте. Буду обращаться еще.</p>
+      </div>
+    </div>
+  
+    <!-- Изображение в конце отзывов -->
+    <div class="images">
+      <img src="img/sticker.gif" width="200px" height="200px" alt="Изображение магазина Технодом">
+      <!-- Отступ между изображениями -->
+      <div style="width: 20px; height: auto; display: inline-block;"></div>
+      <!-- Второе изображение -->
+      <img src="img/sticker2.gif" width="200px" height="200px" alt="Второе изображение">
+    </div>
+  
+    <!-- Кнопка оставить отзыв -->
+    <button class="feedback-button" onclick="showFeedbackForm()">Оставить отзыв</button>
+  
+    <!-- Форма для оставления отзыва -->
+    <div class="feedback-form" id="feedbackForm">
+      <h2>Оставить отзыв</h2>
+      <input type="text" id="name" placeholder="Ваше имя">
+      <textarea id="feedback" placeholder="Ваш отзыв"></textarea>
+      <button class="submit-button" onclick="submitFeedback()">Отправить</button>
+    </div>
+  </div>
+<script src="otziv.js">
+
+</script>
+</body>
+</html>

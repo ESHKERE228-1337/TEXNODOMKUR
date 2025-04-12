@@ -1,0 +1,6 @@
+body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color: #f4f4f4; }
+.container { max-width: 800px; margin: auto; padding: 20px; }
+.review { background-color: #fff; padding: 15px; margin-bottom: 20px; border-radius: 5px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
+.review h3 { color: #333; }
+.review p { color: #666; }
+.review img { max-width: 100%; height: auto; border-radius: 5px; }
